@@ -4,6 +4,7 @@ class Suv{
     }
 }
 class Car extends Suv{
+    @Override // Overriding with Suv
     public void varity(){ // Overriding
         System.out.println("Mahendra Thar");
     }
